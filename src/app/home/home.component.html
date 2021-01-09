@@ -1,0 +1,22 @@
+<div class="container">
+
+    <mat-card>
+        <mat-card-title>Chatter</mat-card-title>
+        <mat-card-content>
+            <form [formGroup]="form" (ngSubmit)="Join(form.value)">
+                <p>
+                    <mat-form-field>
+                        <input type="text" matInput placeholder="Username" formControlName="user">
+                    </mat-form-field>
+                </p>
+
+
+                <div class="button">
+                    <button type="submit" mat-raised-button color="accent">Join Chat
+      </button>
+                </div>
+
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>

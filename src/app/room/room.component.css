@@ -1,0 +1,32 @@
+
+
+.center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.others{
+background-color:#673AB7;
+color: white;
+
+}
+.mine{
+  background-color:#FFD740 ;
+  color: black;
+  justify-content: left;
+}
+.floater{
+float: right;
+
+
+}
+.title{
+  padding-left: 0;
+  display: inline;
+}
+.mat-card{
+overflow-y: auto;
+max-height: 500px;
+
+}

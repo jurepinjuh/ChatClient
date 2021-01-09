@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.user-card :hover {
+    transform: scale(1.05);
+}
+
+.toast-container>.toast {
+    background-image: none !important;
+}
+
+.badge {
+    font-size: 1em!important;
+    float: right!important;
+    background: #FFD740!important;
+}
